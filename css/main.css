@@ -505,7 +505,7 @@ img {
 .header__inner {
   margin: 0;
   padding: 13px 0;
-  padding-right: 30px;
+  padding-right: 20px;
   max-width: 1360px;
   display: flex;
   justify-content: space-between;
@@ -516,15 +516,20 @@ img {
   margin: 0 98px 0 128px;
 }
 
+.header__nav {
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+}
+
 .nav__bar {
   margin: 0 auto;
-  padding: 0px 10px 0 60px;
+  padding: 0px 0px 0 0px;
   max-width: 1360px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #FFFFFF;
-  border: 1px solid #F3F3F3;
 }
 
 .header__logo--link {

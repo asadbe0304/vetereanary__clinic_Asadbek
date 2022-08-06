@@ -110,20 +110,25 @@
 .header__inner {
     margin: 0;
     padding: 13px 0;
-    padding-right: 30px;
+    padding-right: 20px;
     max-width: 1360px;
     @include space;
 }
 .header_tel{
     margin: 0 98px 0 128px;
 }
-.nav__bar {
-    margin: 0 auto;
-    padding: 0px 10px 0 60px;
-    max-width: 1360px;
-    @include space;
+.header__nav{
+    margin: 0;
+    padding: 0;
     background: #FFFFFF;
     border: 1px solid #F3F3F3;
+}
+.nav__bar {
+    margin: 0 auto;
+    padding: 0px 0px 0 0px;
+    max-width: 1360px;
+    @include space;
+
 }
 .header__logo--link{
     text-decoration: none;
