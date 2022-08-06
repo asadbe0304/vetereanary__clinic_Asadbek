@@ -5,7 +5,7 @@
 
 .feedback-section {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 0;
     background-image: url(../../images/mask.png);
     background-repeat: no-repeat;
     background-size: auto;
@@ -14,7 +14,7 @@
 
 .feedback {
     margin: 0 auto;
-    padding: 62px 0 247px 0;
+    padding: 0px 0 0px 0;
     max-width: 1360px;
     display: flex;
     align-items: center;
@@ -32,7 +32,6 @@
     position: relative;
     margin: 0 auto;
     margin-left: 100px;
-    padding: 62px 0px 74px 0px;
     display: flex;
     width: 375px;
     flex-direction: column;
@@ -44,7 +43,7 @@
     content: " ";
     width: 410px;
     height: 410px;
-    top: 235px;
+    top: 120px;
     left: 365px;
     z-index: 1;
     background-image: url(../../images/fishwebp.webp);

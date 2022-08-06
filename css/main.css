@@ -1278,7 +1278,7 @@ S .service__sub--text {
 
 .feedback-section {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 0;
   background-image: url(../../images/mask.png);
   background-repeat: no-repeat;
   background-size: auto;
@@ -1287,7 +1287,7 @@ S .service__sub--text {
 
 .feedback {
   margin: 0 auto;
-  padding: 62px 0 247px 0;
+  padding: 0px 0 0px 0;
   max-width: 1360px;
   display: flex;
   align-items: center;
@@ -1302,7 +1302,6 @@ S .service__sub--text {
   position: relative;
   margin: 0 auto;
   margin-left: 100px;
-  padding: 62px 0px 74px 0px;
   display: flex;
   width: 375px;
   flex-direction: column;
@@ -1314,7 +1313,7 @@ S .service__sub--text {
   content: " ";
   width: 410px;
   height: 410px;
-  top: 235px;
+  top: 120px;
   left: 365px;
   z-index: 1;
   background-image: url(../../images/fishwebp.webp);
@@ -1457,7 +1456,7 @@ S .service__sub--text {
 }
 
 .site-footer {
-  margin: 0;
+  margin: 247px 0 0 0;
   padding: 54px 0 23px 0;
   background: #F3F3F3;
   border: 1px solid #EBEBEB;
