@@ -1282,7 +1282,7 @@ S .service__sub--text {
 
 .feedback {
   margin: 0 auto;
-  padding: 62px 0;
+  padding: 62px 0 247px 0;
   max-width: 1360px;
   display: flex;
   align-items: center;
