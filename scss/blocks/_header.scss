@@ -126,15 +126,20 @@
 }
 .nav__bar {
     margin: 0 auto;
-    padding: 0px 0px 0 0px;
+    padding: 20px 0px 20px 0px;
     max-width: 1360px;
     @include space;
 
 }
 .header__logo--link{
+    position: relative;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
-
+}
+.header__logo--img{
+    position: absolute;
+    top: -50px;
+    left: 0;
 }
 .header__logo--link:hover{
     opacity: 0.8;
