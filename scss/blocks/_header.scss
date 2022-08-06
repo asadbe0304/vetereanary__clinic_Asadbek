@@ -6,6 +6,7 @@
 .header__address {
     position: relative;
     @include font(500, 14px, 18px, #333);
+    font-style: normal;
 }
 .header__address::before{
     position: absolute;
@@ -182,7 +183,15 @@
 .nav__reception{
     position: relative;
     @include font(500,16px,21px,#333);
-    text-decoration: none
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.nav__reception:hover{
+    color: #FFBD54;
+}
+.nav__reception:active{
+    color: #333;
+    opacity: 0.6;
 }
 .nav__reception::before{
     position: absolute;

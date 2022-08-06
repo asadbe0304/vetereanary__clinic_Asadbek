@@ -343,7 +343,7 @@ body {
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
   background-position: cover;
-  background-color: #f9f9f9;
+  background-color: #f2f2f2;
 }
 
 img {
@@ -379,6 +379,7 @@ img {
   font-size: 14px;
   line-height: 18px;
   color: #333;
+  font-style: normal;
 }
 
 .header__address::before {
@@ -602,6 +603,16 @@ img {
   line-height: 21px;
   color: #333;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav__reception:hover {
+  color: #FFBD54;
+}
+
+.nav__reception:active {
+  color: #333;
+  opacity: 0.6;
 }
 
 .nav__reception::before {
