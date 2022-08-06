@@ -1,0 +1,87 @@
+.site-main {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    margin: 0;
+    padding: 153px 0 311px 0;
+    background-image: url(../../images/hero1.png),url(../../images/bird.png),url(../../images/hero3.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 355px) calc(50% - 192px),calc(50% + 610px) calc(50% + 210px),calc(50% + 585px) calc(50% + 274px);
+
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    max-width: 1360px;
+    @include space;
+}
+
+.hero__left {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.hero__images:nth-child(2) {
+    position: absolute;
+    left: 85px;
+    top: 379px;
+    z-index: 5;
+}
+
+.hero__images:nth-child(3) {
+    position: absolute;
+    left: 197px;
+    top: 155px;
+    z-index: 4;
+}
+
+.hero__images:nth-child(4) {
+    position: absolute;
+    left: 293px;
+    top: 168px;
+    z-index: 3;
+}
+
+.hero__right {
+    margin: 0;
+    padding: 0;
+    width: 608px;
+    @include column;
+    align-items:flex-start;
+}
+
+.hero__title {
+    margin: 0;
+    padding: 0;
+    @include font(700, 70px, 64px, #333);
+}
+.color{
+    color: #78C0DE;
+}
+.hero__text {
+    margin: 39px 0 38px 0;
+    padding: 0;
+    width: 494px;
+    @include font(400, 16px, 21px,#949494);
+}
+
+.hero__link {
+    margin: 0;
+    padding: 16px 48px;
+    @include font(500, 16px, 21px, #FFFFFF);
+    background: #333333;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.hero__link:hover{
+    background: #FFBD54;
+}
+.hero__link:active{
+    background: #FFBD54;
+    opacity: 0.6;
+}

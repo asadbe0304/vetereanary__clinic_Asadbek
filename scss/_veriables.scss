@@ -1,0 +1,22 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin font($weight,$size,$lh,$color) {
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $lh;
+    color: $color;
+}
